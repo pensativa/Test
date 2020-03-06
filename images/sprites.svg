@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<symbol id="arrow">
+	<path fill="#3E3D40" fill-rule="evenodd" d="M54.657 34.858c-2.808 4.301-8.545 5.425-12.791 2.581L.835-.003l51.311 21.907c4.209 2.882 5.35 8.695 2.511 12.954z"/>
+</symbol>
+<symbol id="scale-blue">
+	<path fill="#0093D7" fill-rule="evenodd" d="M34.248.26C63.366 23.401 82.04 59.412 82.04 99.9H28.053c0-25.343-10.397-43.397-27.486-57.291L34.248.26z"/>
+</symbol>
+<symbol id="scale-green">
+	<path fill="#A3CD3B" fill-rule="evenodd" d="M.124 23.961c20.58-14.464 45.738-23 72.912-23 27.213 0 52.369 8.536 72.905 23l-34.518 43.04c-14.684-9.917-26.297-12.204-38.387-12.204-12.056 0-26.188 4.358-38.352 12.204L.124 23.961z"/>
+</symbol>
+<symbol id="scale-yellow">
+	<path fill="#FFC815" fill-rule="evenodd" d="M-.012 99.9c0-40.488 19.258-76.499 49.176-99.64l34.842 42.349C65.348 57.249 55.578 74.557 55.578 99.9H-.012z"/>
+</symbol>
+</svg>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
+		<title>Тестовая форма</title>
+		<link rel="stylesheet" href="css/main.css?v=1583507638271">
+	</head>
+	<body>
+		<div class="main-block">
+			<form class="form" method="post">
+				<div class="form-block form__contacts"><img src="images/user-img.png" alt="Соискатель">
+					<div class="form__profile">
+						<input class="form__input" type="text" name="name" placeholder="Имя" minlength="3" maxlength="20" value="Усенко Мария" required>
+						<input class="form__input datepicker-here" type="text" name="date" placeholder="Дата рождения" value="04.01.1990" required>
+						<input class="form__input" type="text" name="city" placeholder="Город" minlength="3" maxlength="30" value="Днепр" required>
+						<input class="form__input" type="text" name="data" placeholder="Контактные данные" minlength="10" maxlength="100" value="Email: mkofein@gmail.com" required>
+					</div>
+				</div>
+				<div class="form-block form__skills">
+					<h2 class="form__title">Навыки</h2>
+					<div class="skills">
+						<div class="skills__item">
+							<input class="skills__checkbox" id="html5" type="checkbox" name="html5" checked>
+							<label class="skills__label" for="html5">Html5</label>
+						</div>
+						<div class="skills__item">
+							<input class="skills__checkbox" id="sass" type="checkbox" name="sass" checked>
+							<label class="skills__label" for="sass">SASS</label>
+						</div>
+						<div class="skills__item">
+							<input class="skills__checkbox" id="vanillajs" type="checkbox" name="vanillajs">
+							<label class="skills__label" for="vanillajs">VANILLAJS</label>
+						</div>
+						<div class="skills__item">
+							<input class="skills__checkbox" id="git" type="checkbox" name="git" checked>
+							<label class="skills__label" for="git">Git</label>
+						</div>
+						<div class="skills__item">
+							<input class="skills__checkbox" id="css3" type="checkbox" name="css3" checked>
+							<label class="skills__label" for="css3">CSS3</label>
+						</div>
+						<div class="skills__item">
+							<input class="skills__checkbox" id="less" type="checkbox" name="less">
+							<label class="skills__label" for="less">Less</label>
+						</div>
+						<div class="skills__item">
+							<input class="skills__checkbox" id="angular" type="checkbox" name="angular">
+							<label class="skills__label" for="angular">ANGULAR</label>
+						</div>
+						<div class="skills__item">
+							<input class="skills__checkbox" id="foundation" type="checkbox" name="foundation">
+							<label class="skills__label" for="foundation">FOUNDATION</label>
+						</div>
+						<div class="skills__item">
+							<input class="skills__checkbox" id="bem" type="checkbox" name="bem" checked>
+							<label class="skills__label" for="bem">БЭМ</label>
+						</div>
+						<div class="skills__item">
+							<input class="skills__checkbox" id="gulp" type="checkbox" name="gulp" checked>
+							<label class="skills__label" for="gulp">Gulp</label>
+						</div>
+						<div class="skills__item">
+							<input class="skills__checkbox" id="jquery" type="checkbox" name="jquery" checked>
+							<label class="skills__label" for="jquery">JQUERY</label>
+						</div>
+						<div class="skills__item">
+							<input class="skills__checkbox" id="bootstrap" type="checkbox" name="bootstrap" checked>
+							<label class="skills__label" for="bootstrap">BOOTSTRAP</label>
+						</div>
+					</div>
+				</div>
+			</form>
+			<div class="result form-block">
+				<div class="scale">
+					<svg class="scale__slice scale__slice--yellow">
+						<use xlink:href="images/sprites.svg#scale-yellow"></use>
+					</svg>
+					<svg class="scale__slice scale__slice--green">
+						<use xlink:href="images/sprites.svg#scale-green"></use>
+					</svg>
+					<svg class="scale__slice scale__slice--blue">
+						<use xlink:href="images/sprites.svg#scale-blue"></use>
+					</svg>
+					<svg id="arrow">
+						<use xlink:href="images/sprites.svg#arrow"></use>
+					</svg>
+				</div>
+				<div class="result__text">
+					<h2 class="form__title scale-result__title">Мой уровень владения Java Script</h2>
+					<div class="result__number">954</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/vendor.js?v=1583507638271"></script>
+		<script src="js/main.js?v=1583507638271"></script>
+	</body>
+</html>
